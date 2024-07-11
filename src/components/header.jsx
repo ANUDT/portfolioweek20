@@ -1,4 +1,4 @@
-import styles from '../header.css?inline';
+import styles from '../styles/Header.css?inline';
 
 function Header() {
   return (

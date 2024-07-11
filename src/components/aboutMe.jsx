@@ -1,5 +1,5 @@
 import "../App.css";
-import avatar from "../../image/adt.jpeg"
+import avatar from "../images/adt.jpeg"
 
 function AboutMe() {
   return (

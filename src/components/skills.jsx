@@ -1,7 +1,7 @@
 import "../App.css";
-import project1 from "../../image/adt.jpeg"
-import project2 from "../../image/modern computer.jpeg"
-import project3 from "../../image/hacking.jpeg"
+import project1 from "../images/adt.jpeg"
+import project2 from "../images/modern computer.jpeg"
+import project3 from "../images/hacking.jpeg"
 import { expertise } from "../data/value.jsx"
 
 function Skills() {
