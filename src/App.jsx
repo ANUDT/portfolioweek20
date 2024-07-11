@@ -8,7 +8,6 @@ import Project from './components/project';
 import Resume from './components/resume';
 import Skills from './components/skills.jsx';
 import { lightTheme } from './utils/Themes.jsx';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
   //displaying app with the elements header, footer, about me, contact, navigation, portfolio, project and resume
