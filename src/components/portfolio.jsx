@@ -9,7 +9,7 @@ function Portfolio() {
     <CardGroup>
       {project.map((project, index) => (
         <Card key={index} style={{ width: '18rem', margin: '10px' }}>
-          <Card.Img variant="top" src={project.imageUrl} />
+          <Card.Img variant="top" src={ project.imageUrl} />
           <Card.Body>
             <Card.Title>{project.title}</Card.Title>
             <Card.Text>{project.description}</Card.Text>
