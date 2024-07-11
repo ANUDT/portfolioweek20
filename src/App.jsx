@@ -3,6 +3,7 @@ import Header from './components/header';
 import Footer from './components/footer';
 import AboutMe from './components/aboutMe';
 import Contact from './components/contact';
+import Portfolio from './components/portfolio';
 import Project from './components/project';
 import Resume from './components/resume';
 import Skills from './components/skills.jsx';
@@ -18,6 +19,7 @@ function App() {
               <Routes>
               <Route path="/" element={<AboutMe />} />
                <Route path="/contact" element={<Contact />} />
+               <Route path="/portfolio" element={<Portfolio/>} />
               <Route path="/project" element={<Project />} />
               <Route path="/resume" element={<Resume />} />
               <Route path="/skills" element={<Skills />} />
