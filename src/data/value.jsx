@@ -184,9 +184,10 @@ export const experience = [
         doc: "https://media.",
     }
 ]
-  
-      
+
+
 export const project = [
+
     {
         id: 1,
         title: "Project 1 FOODIE",
@@ -222,10 +223,47 @@ export const project = [
         skills: ["CHILDCARE SERVICES", "USER REVIEWS"],
         doc: "https://media.",
         imageUrl: "src/images/project3.png"
+    },
+    {
+        id: 4,
+        title: "Project 4 Password Generator",
+        date: "9th September",
+        description: 
+        "This week's Challenge requires you to modify starter code to create a application that enables employees to generate random passwords based on criteria that they have selected. This appwill run in the browser and feature dynamically updated HTML and CSS powered by JavaScript code that you write.It will have a clean and polished, responsive user interface that adapts to multiple screThe password can include special characters.If you are unfamiliar with these, see this list of password special characters from the OWASP Foundation.",
+        github: "https://github.com/ANUDT/week-3-JavaScript-Password-Generator.git",
+        presentation: "",
+        tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux"],
+        skills: ["POWER BI", "DATA ANALYSES"],
+        doc: "https://media.",
+        imageUrl: "scr/image/passwordgenerator.png"
+    },
+    {
+        id: 2,
+        title: "Project 5 Web APIs: Code Quiz",
+        date: "10th September",
+        description:""
+        github: "https://github.com/ANUDT/Week-4-quiz.git",
+        presentation: "TEXT",
+        tags: ["Handlebars", "CSS", "Javascript", "PostgreSQL", "Node.js"],
+        skills: ["JOB SEARCH", "USER ACCOUNTS"],
+        doc: "https://media.",
+        imageUrl: "src/images/Quiz.png"
+    },
+    {
+        id: 3,
+        title: "Project 6 Third-Party APIs: Work Day Scheduler",
+        date: "9th September",
+        description:""
+        github: "https://github.com/ANUDT/week-5-3rd-Party-API-Work-Day-Scheduler.git",
+        presentation: "",
+        tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux"],
+        skills: ["CHILDCARE SERVICES", "USER REVIEWS"],
+        doc: "https://media.",
+        imageUrl: "src/images/workdayscheduler.png",
     }
 ];
 
-  
+
 export const TimeLineData = [
     { year: 2022, text: "TEXT" },
     { year: 2022, text: "TEXT" },
