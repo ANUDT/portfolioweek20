@@ -1,11 +1,29 @@
-import "../App.css";
 import Form from 'react-bootstrap/Form';
+import Alert from 'react-bootstrap/Alert';
+
+function messageAlert() {
+  return (
+    <>
+      {[
+       'info',
+        ].map((variant) => (
+        <Alert key={variant} variant={variant}>
+          This is a {variant} alert—check it out!
+        </Alert>
+      ))}
+    </>
+  );
+}
+
+export default messageAlert;
+
 
 function Contact() {
   return (
+
     <Form>
       <Form.Group className="mb-3" controlId="exampleForm.ControlInput0">
-      <Form.Label>Name</Form.Label>
+       <Form.Label>Please let me know if you wish to know more about me ...</Form.Label>
       <Form.Control type="text" placeholder="my name" />
     </Form.Group>
     <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
