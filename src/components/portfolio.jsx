@@ -1,38 +1,28 @@
-import "../App.css";
+import '../App.css';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-import project1 from "../images/project1foodie.png"
-//import project2 from "../images/techhive1.png"
-//import project3 from "../images/techhive2.png"
-
+import CardGroup from 'react-bootstrap/CardGroup';
+import { project } from '../data/value';
 
 function Portfolio() {
   return (
-    <>
-      <Card style={{ width: '18rem' }}>
-        <Card.Img variant="top" src={project1} />
-        <Card.Body>
-          <Card.Title>Project 1</Card.Title>
-          <Card.Text>
-            Text
-          </Card.Text>
-          <Button variant="primary">GIT HUB LINK</Button>
-        </Card.Body>
-      </Card>
-      <Card style={{ width: '18rem' }}>
-        <Card.Img variant="top" src={project1} />
-        <Card.Body>
-          <Card.Title>Project 1</Card.Title>
-          <Card.Text>
-            Text
-          </Card.Text>
-          <Button variant="primary">GIT HUB LINK</Button>
-        </Card.Body>
-      </Card>
-    </>
+    <CardGroup>
+      {project.map((project, index) => (
+        <Card key={index} style={{ width: '18rem', margin: '10px' }}>
+          <Card.Img variant="top" src={project.imageUrl} />
+          <Card.Body>
+            <Card.Title>{project.title}</Card.Title>
+            <Card.Text>{project.description}</Card.Text>
+            <Button variant="primary" href={project.github}>GIT HUB LINK</Button>
+          </Card.Body>
+        </Card>
+      ))}
+    </CardGroup>
   );
 }
+
 export default Portfolio;
+
 
 // WHEN I am presented with the Portfolio section
 // THEN I see titled images of six of the developer’s applications with links to both the deployed applications and the corresponding GitHub repositories

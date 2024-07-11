@@ -197,6 +197,7 @@ export const project = [
         tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux"],
         skills: ["POWER BI", "DATA ANALYSES"],
         doc: "https://media.",
+        imageUrl: "../images/project1foodie.png",
     },
     {
         id: 2,
