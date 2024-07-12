@@ -1,6 +1,5 @@
-import "bootstrap-icons/font/bootstrap-icons.css"
+import "bootstrap-icons/font/bootstrap-icons.css";
 import ListGroup from 'react-bootstrap/ListGroup';
-
 
 function Footer() {
   return (
