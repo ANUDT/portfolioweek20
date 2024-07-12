@@ -190,7 +190,7 @@ export const project = [
         tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux"],
         skills: ["POWER BI", "DATA ANALYSES"],
         doc: "https://media.",
-        imageUrl: "src/images/project1.png"
+        imageUrl: "../images/project1.png"
     },
     {
         id: 2,
@@ -202,7 +202,7 @@ export const project = [
         tags: ["Handlebars", "CSS", "Javascript", "PostgreSQL", "Node.js"],
         skills: ["JOB SEARCH", "USER ACCOUNTS"],
         doc: "https://media.",
-        imageUrl: "src/images/project2.png"
+        imageUrl: "../images/project2.png"
     },
     {
         id: 3,
@@ -214,7 +214,7 @@ export const project = [
         tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux"],
         skills: ["CHILDCARE SERVICES", "USER REVIEWS"],
         doc: "https://media.",
-        imageUrl: "src/images/project3.png"
+        imageUrl: "../images/project3.png"
     },
     {
         id: 4,
