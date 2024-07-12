@@ -1,22 +1,4 @@
 import Form from 'react-bootstrap/Form';
-import Alert from 'react-bootstrap/Alert';
-
-function messageAlert() {
-  return (
-    <>
-      {[
-       'info',
-        ].map((variant) => (
-        <Alert key={variant} variant={variant}>
-          This is a {variant} alert—check it out!
-        </Alert>
-      ))}
-    </>
-  );
-}
-
-export default messageAlert;
-
 
 function Contact() {
   return (

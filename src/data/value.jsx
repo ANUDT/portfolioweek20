@@ -241,7 +241,7 @@ export const project = [
         id: 2,
         title: "Project 5 Web APIs: Code Quiz",
         date: "10th September",
-        description:""
+        description:"",
         github: "https://github.com/ANUDT/Week-4-quiz.git",
         presentation: "TEXT",
         tags: ["Handlebars", "CSS", "Javascript", "PostgreSQL", "Node.js"],
@@ -253,7 +253,7 @@ export const project = [
         id: 3,
         title: "Project 6 Third-Party APIs: Work Day Scheduler",
         date: "9th September",
-        description:""
+        description:"",
         github: "https://github.com/ANUDT/week-5-3rd-Party-API-Work-Day-Scheduler.git",
         presentation: "",
         tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux"],
