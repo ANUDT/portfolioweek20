@@ -3,6 +3,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
 import { expertise } from '../data/value.jsx';
+import resume from '../images/CVADT.pdf';
 
 function Resume() {
   return (
@@ -13,7 +14,7 @@ function Resume() {
           <Card>
             <Card.Body>
               <Card.Title>My CV</Card.Title>
-              <Card.Text><a href=""><i className="bi bi-file-person-fill"></i> download link</a></Card.Text> 
+              <Card.Text><a href={ resume } target = "_blank"><i className="bi bi-file-person-fill"></i> download link</a></Card.Text> 
             </Card.Body>
           </Card>
         </>1 of 1</Col>
