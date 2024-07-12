@@ -18,11 +18,6 @@ export const expertise = [
         title: "Frontend",
         skills: [
             {
-                name: "ANU JS",
-                image:
-                    "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
-            },
-            {
                 name: "REACT JS",
                 image:
                     "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
@@ -103,12 +98,12 @@ export const expertise = [
             {
                 name: "GIT",
                 image:
-                    "https://github.com/ANUDT/week-20-portfolio-ADT",
+                    "https://tse3.mm.bing.net/th?id=OIP.Xa0BEkwl0Zx4qnY9lMbD7gHaHa&pid=Api&P=0&h=180",
             },
             {
                 name: "GITHUB",
                 image:
-                    "https://https://github.com/ANUDT/week-20-portfolio-ADT",
+                    "https://tse4.mm.bing.net/th?id=OIP.8SVgggxQcO5L6Dw_61ac4QHaEK&pid=Api&P=0&h=180",
             },
             {
                 name: "DOCKER",
@@ -128,13 +123,13 @@ export const expertise = [
             {
                 name: "POSTMAN",
                 image:
-                    "",
+                    "https://tse3.mm.bing.net/th?id=OIP.f1-txmDYWd7LwFf6Xhu2SQHaHa&pid=Api&P=0&h=180",
             },
 
             {
                 name: "FIGMA",
                 image:
-                    "https://camo.githubusercontent.com/ed93c2b000a76ceaad1503e7eb9356591b885227e82a36a005b9d3498b303ba5/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6669676d612f6669676d612d69636f6e2e737667",
+                    "https://tse2.mm.bing.net/th?id=OIP.eS3TwTMtMk3Uy8QgqkphTgHaHa&pid=Api&P=0&h=180",
             },
         ],
     },
